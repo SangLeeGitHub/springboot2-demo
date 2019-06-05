@@ -22,8 +22,14 @@ public class DemoAppController {
 
 	@RequestMapping("/eric")
 	@ResponseBody
-	public String test() {
+	public String eric() {
 		return "Hello World! Eric";
+	}
+
+	@RequestMapping("/jeonghwan")
+	@ResponseBody
+	public String jeonghwan() {
+		return "Hello World! jeonghwan";
 	}
 	
 	private static final String template = "Hello, %s!";
