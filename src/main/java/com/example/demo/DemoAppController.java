@@ -19,6 +19,12 @@ public class DemoAppController {
 	public String test() {
 		return "Hello World! Test";
 	}
+
+	@RequestMapping("/jeonghwan")
+	@ResponseBody
+	public String jeonghwan() {
+		return "Hello World! jeonghwan";
+	}
 	
 	private static final String template = "Hello, %s!";
 	private final AtomicLong counter = new AtomicLong();
