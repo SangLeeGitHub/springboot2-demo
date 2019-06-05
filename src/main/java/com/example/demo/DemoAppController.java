@@ -32,6 +32,18 @@ public class DemoAppController {
 		return "Hello World! jeonghwan";
 	}
 	
+	@RequestMapping("/yunicekim")
+	@ResponseBody
+	public String yunicekim() {
+		return "Hello World! Yunice";
+	}
+
+
+	
+	
+
+
+
 	private static final String template = "Hello, %s!";
 	private final AtomicLong counter = new AtomicLong();
 	
