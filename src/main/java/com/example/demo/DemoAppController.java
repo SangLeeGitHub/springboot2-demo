@@ -54,3 +54,5 @@ public class DemoAppController {
 		return new Greeting(counter.incrementAndGet(), String.format(template, name));
 	}
 }
+
+// Branch Test
