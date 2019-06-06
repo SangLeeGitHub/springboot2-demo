@@ -44,6 +44,12 @@ public class DemoAppController {
 		return "Hello World! Sean";
 	}	
 	
+	@RequestMapping("/slime")
+	@ResponseBody
+	public String slime() {
+		return "Hello World! Slime";
+	}
+	
 	private static final String template = "Hello, %s!";
 	private final AtomicLong counter = new AtomicLong();
 	
